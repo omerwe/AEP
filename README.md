@@ -17,7 +17,7 @@ The code is designed for Python >=3.6 and requires the following freely availabl
 * [scikit-learn](http://scikit-learn.org/stable)
 * [cython](https://github.com/cython/cython)
 
-We recommend runningthe code using the [Anaconda Python distribution](https://www.anaconda.com/download/).
+We recommend running the code using the [Anaconda Python distribution](https://www.anaconda.com/download/).
 In Anaconda, you can install all the Python packages with the command "conda install \<package_name\>".
 Alternatively, the Python packages can be installed with the command "pip install --user \<package_name\>".
 
