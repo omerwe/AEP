@@ -69,16 +69,3 @@ You can see all the arguments of `aep.py` by typing `python aep.py --help`. Here
 `--kernel`: The kernel matrix. Right now the code natively supports only `linear` and `rbf`. However, the file `kernels.py` contains the building blocks for a large number of kernels that can be used in principle (with code adopted from the [GPML package](http://www.gaussianprocess.org/gpml/code/matlab/doc/)) (defauler kernel=linear)
 <br><br>
 `--e_dist`: The distribution of the residual variable *e* (i.e. the type of the likelihood function, or the inverse-link function). The code currently supported the options `normal` (probit likelihood) or `logistic` (logistic likelihood). When using logistic likelihood, please normalize the variances by also using the flag `--scale_g` so that the liability variance is 1.0, like in the probit likelihood (default e_dist=probit).
-
-
-
-
-
-<br><br>
-# Contact
-For questions and comments, please open a Github issue (preferred) or contact Omer Weissbrod at oweissbrod[at]hsph.harvard.edu
-
-
-
-
-
